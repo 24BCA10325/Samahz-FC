@@ -1,0 +1,16 @@
+/* Matches Page Specific Styles */
+.fixtures, .results {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+}
+
+.fixtures th, .results th {
+  background-color: var(--primary);
+  color: white;
+}
+
+.fixtures td, .results td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}

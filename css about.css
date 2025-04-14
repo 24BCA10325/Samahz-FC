@@ -1,0 +1,41 @@
+
+
+h1, h2, h3, h4, h5, h6,
+.hero h1, .hero h2, .hero h3,
+.card h1, .card h2, .card h3 {
+  color: #0066cc !important;
+}
+
+
+.hero {
+  text-align: center;
+  padding: 4rem 2rem;
+  background: linear-gradient(rgba(0, 86, 179, 0.8), rgba(0, 86, 179, 0.8)), url('../images/stadium.jpg');
+  background-size: cover;
+  color: white; /* This affects text color, not headings */
+}
+
+
+.hero h1 {
+  color: white !important;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.highlights {
+  display: flex;
+  gap: 1rem;
+  padding: 2rem;
+}
+
+.card {
+  flex: 1;
+  background: white;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card img, .card video {
+  width: 100%;
+  border-radius: 8px;
+}

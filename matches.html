@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Samahz FC | Matches</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/matches.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">
+        <img src="C:\Users\ADMIN\Desktop\Samahz FC\Images\Team Logo.png">
+      </div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="team.html">Team</a></li>
+        <li><a href="matches.html" class="active">Matches</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+ <main>
+  <h1>Upcoming Matches</h1>
+  <table class="fixtures">
+    <thead>
+      <tr>
+        <th>Date</th>
+        <th>Opponent</th>
+        <th>Venue</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>15 Jun 2024</td>
+        <td>Dynamos FC</td>
+        <td>Home</td>
+      </tr>
+      <tr>
+        <td>21 Jun 2024</td>
+        <td>Scottland FC</td>
+        <td>Away</td>
+      </tr>
+      <tr>
+        <td>27 Jun 2024</td>
+        <td>Yadah FC</td>
+        <td>Home</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2>Past Results</h2>
+  <table class="results">
+    <thead>
+      <tr>
+        <th>Date</th>
+        <th>Opponent</th>
+        <th>Score</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1 Jun 2024</td>
+        <td>Highlanders FC</td>
+        <td>2-1 (W)</td>
+      </tr>
+     <tr>
+        <td>7 Jun 2024</td>
+        <td>Caps United FC</td>
+        <td>3-0 (W)</td>
+      </tr>
+     <tr>
+        <td>11 Jun 2024</td>
+        <td>Green Fuel FC</td>
+        <td>5-2 (W)</td>
+      </tr>
+    </tbody>
+  </table>
+</main>
+
+<style>
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1, h2 {
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    margin-top: 30px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.1);
+  }
+  
+  th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .fixtures td:nth-child(3),
+  .results td:nth-child(3) {
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .results td:nth-child(3) {
+    color: green; /* For wins */
+  }
+</style>
+  <footer>
+    <p>&copy; 2024 Samahz FC</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Samahz FC | About</title>
+  <link rel="stylesheet" href="css styles.css">
+  <link rel="stylesheet" href="css about.css">
+  <style>
+    body {
+      font-family: sans-serif;
+    }
+    h1, h2 {
+      text-decoration: underline;
+      font-style: italic;
+      font-weight: bold;
+    }
+    .mission-vision-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    .mission, .vision {
+      width: 48%;
+      margin-bottom: 20px;
+    }
+    .mission-item, .vision-item {
+      margin-bottom: 15px;
+    }
+    .mission-item h3, .vision-item h3 {
+      margin-bottom: 5px;
+    }
+    .logo-label {
+      text-align: center;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+    .image-caption {
+      text-align: center;
+      font-style: italic;
+      margin-top: 5px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo-label">Team Logo</div>
+      <div class="logo">
+        <img src="C:\Users\ADMIN\Desktop\Samahz FC\Images\Team Logo.png" alt="Samahz FC Logo">
+      </div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html" class="active">About</a></li>
+        <li><a href="team.html">Team</a></li>
+        <li><a href="matches.html">Matches</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="history">
+      <h1>Our History</h1>
+      <p>Founded in 1990 by Craig Mapungwana "Samahz", Samahz FC began as a humble neighborhood team struggling to make ends meet. Through sheer determination and passion for the game, we gradually rose through Zimbabwe's football ranks.</p>
+      <p>Our breakthrough came in 2005 when we earned promotion to the top flight, marking the start of our golden era. Since then, we've established ourselves as a dominant force in Zimbabwean football, winning multiple league titles and domestic cups.</p>
+      <p>Today, Samahz FC has grown beyond borders, competing in continental tournaments and earning international recognition. Our journey from grassroots to global recognition stands as testament to the power of perseverance and vision.</p>
+      <img src="C:\Users\ADMIN\Desktop\Samahz FC\Images\15487290-7201253-image-a-184_1561992960496.jpg" alt="Reuben Amorim (Head Coach) with the squad in training">
+      <div class="image-caption">Reuben Amorim (Head Coach) with the squad in training</div>
+    </section>
+
+    <section class="mission-vision">
+      <h2>Mission & Vision</h2>
+      <div class="mission-vision-container">
+        <div class="mission">
+          <h3>Our Mission</h3>
+          <div class="mission-item">
+            <h4>Community Focus:</h4>
+            <p>"To be a vital part of our community, fostering a spirit of pride and belonging through football."</p>
+          </div>
+          <div class="mission-item">
+            <h4>Athletic Excellence:</h4>
+            <p>"To consistently strive for the highest levels of play and performance, inspiring our players and fans."</p>
+          </div>
+          <div class="mission-item">
+            <h4>Inspiring Fans:</h4>
+            <p>"To create unforgettable experiences for our fans, building a strong connection through the passion of the game."</p>
+          </div>
+          <div class="mission-item">
+            <h4>Developing Talent:</h4>
+            <p>"To nurture and develop young talent, providing opportunities for growth and success on and off the field."</p>
+          </div>
+          <div class="mission-item">
+            <h4>Social Impact:</h4>
+            <p>"To use the power of football to make a positive impact on our community and society."</p>
+          </div>
+        </div>
+
+        <div class="vision">
+          <h3>Our Vision</h3>
+          <div class="vision-item">
+            <h4>Top-Tier Status:</h4>
+            <p>"To become a leading club in our league, competing for championships and earning international recognition."</p>
+          </div>
+          <div class="vision-item">
+            <h4>Global Brand:</h4>
+            <p>"To establish ourselves as a globally recognized and respected football club, inspiring fans worldwide."</p>
+          </div>
+          <div class="vision-item">
+            <h4>Sustainability and Innovation:</h4>
+            <p>"To be a sustainable and innovative club, leading the way in responsible football practices and technologies."</p>
+          </div>
+          <div class="vision-item">
+            <h4>Player Development:</h4>
+            <p>"To be a renowned player development center, producing top-tier talent for national and international teams."</p>
+          </div>
+          <div class="vision-item">
+            <h4>Fan Engagement:</h4>
+            <p>"To cultivate a passionate and engaged fan base, creating a vibrant and inclusive atmosphere at our stadium and online."</p>
+          </div>
+        </div>
+      </div>
+    </section>
+<section class="highlights">
+  <h3>Our Stadium(Estadio DeSamahz)</h3>
+  <div class="card">
+    <img src="images/stadium.jpg" alt="Stadium">
+  </div>
+  <div class="card">
+    <h3>Club highlights(Samahz FC-1 vs Granada-0)-Goal By Trey Nyoni</h3>
+    <video controls>
+      <source src="C:\Users\ADMIN\Desktop\Samahz FC\Images\highlights.mp4" type="video/mp4">
+    </video>
+  </div>
+</section>
+
+<style>
+  .highlights {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 800px; /* Adjust as needed */
+    margin: 0 auto;
+  }
+  
+  .highlights .card {
+    width: 100%;
+  }
+  
+  .highlights .card img,
+  .highlights .card video {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px; /* Optional for rounded corners */
+  }
+  
+  .highlights .card h3 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    color: #333; /* Adjust color as needed */
+  }
+  
+  .highlights > h3 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+</style>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Samahz FC</p>
+  </footer>
+</body>
+</html>

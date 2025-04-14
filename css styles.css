@@ -1,0 +1,56 @@
+:root {
+  --primary: #0056b3;  /* Main blue */
+  --secondary: #ffd700; /* Gold accent */
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-image: url("C:\Users\ADMIN\Desktop\Samahz FC\Images\Team Logo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-color: #f4f4f9; /* Fallback color */
+}
+
+header {
+  background: var(--primary);
+  color: blue;
+  padding: 1rem;
+  position: relative;
+  z-index: 1;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+  padding: 0;
+}
+
+nav a {
+  color: blue;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 2rem;
+  margin: 2rem;
+  border-radius: 8px;
+  position: relative;
+  z-index: 1;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: var(--primary);
+  color: blue;
+  position: relative;
+  z-index: 1;
+}
